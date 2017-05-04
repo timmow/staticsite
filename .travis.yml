@@ -1,9 +1,11 @@
+language: shell
+script: true
 deploy:
   edge: true
   provider: cloudfoundry
   username: timothy.mower+showandtell@digital.cabinet-office.gov.uk
   api: https://api.cloud.service.gov.uk
   organization: paas-demo
-  space: sandbox
+  space: tim
   password:
     secure: IW7bY21w7pZT0yKFFlcD5RMZASlLsJLajXdl1Ij/bgdurcRHMZTgS6MY5kZSOwO+vE0qNSXgyxuCdF8XsPmpttgR2twAm0HBHMSZq9yQdv3371cgr5EKosSCdlQs3N0SDrBTnGclx3F1F3GGmfohW6CuPDx8O5Ul/2o/6TTZsEVxQ+YStZh4VT6JdX1gsubaoTbvA2YbM85+0HdHIEqSxtt9FqGwawX0SEjHMLOrgHykDhylDZePAhdAIPrJKFtSEvJYIfghAxFTFyGlFj9s34mf8rVnjuPZowyiTnnNNmLYjYLt7k4HzujJySCiojsnE9n4MoNpANZu7H/9QMXLWqB9PW04L4c3aV2C8KTJmLfvtWDWdWEKdHooFDW2iXlvDwXXNIM3x1Fp8t131H5hcz70HjHCxx9lfsQ7oMkF60Nmy5tOKPDtvDgEX2VnzRkhyFGUDN61MiYx/yNtQTJ1DdNaa15SsD0oQDaw13UnApKwAjxcmAAP4aJpjEY+wHrmmq+FLSZJltFJrvBJrLc2VMUWyv6j/AHQVkY1uL2hkzGEqhMh2IsbjUPDjX6Kb+n17Hsj/aCRAcT5mLKUAPVaIWhxCpAaFc6Z+8HAP50VMyXZJODxAFwRqsXPMrHxALiIh/sNdHIL44ekhyDcRu+wkg+PyMDU9T/aPJmvEUAalEI=
