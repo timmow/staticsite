@@ -1,0 +1,9 @@
+deploy:
+  edge: true
+  provider: cloudfoundry
+  username: tom.dolan@digital.cabinet-office.gov.uk
+  password:
+    secure: PQMt4kE/tbyLWZpdx5IlkfNvCCXj+X0gJ4hia5S2glW+4WWb3iYz+YqPXGPgbH83pyZ7DjQfOQWM/VWOFng3KuHoBLot7D52/kSjgGS46+vgomWEnhfV71jUiaiJFRHMY2rdQfzgdIKj7zU+rfUuzNyXaWf7gjtjizc6uv1hdhyUuhGYjBKBP9L9iDasa7U+ahmV6uuwkgm+GekE3+vzquZ4GQ+0zrdOoWGz9QMBVi2PzDAW0cHrCYUKprp+8weNN4HOQ95H6RPTr0FfKv5jp0kuabxQz5Gd5/4g0Fl+ROUcspFyRN4FXnNqpSZa/EUILryifQt15gQFWEDGT8+Vf1WguqfS1jYgTnalLyJCYMJekCvQYKKyWYbC2PmxaTXfrF+yaZy1aJb4HLebrjkh/RbQux2/dBYmg+vJFpcxKUxT40/rYDrROXn9jLwO8BrC8zS1EEgWhZsGr5w2ZCzq+M3dDPbkoCJfXYKJ/WOqsUOppl98EhoXRhJYMYbMa9ICNCDB25xkegDND7P5Px5b8ILmmqjtA2HJun0LRm/zJZkHMu4A6izqhGaA29OUbQepLab8isTlWOvAloFTrhn2xBSTzqdrV2D+EgBLVqzxmBeaT1NDzzp6otdpwC9SymbCMJcDjhMudJPZzicdbifPV0nwtKfzqBq7jCrCGqli+JE=
+  api: https://api.cloud.service.gov.uk
+  organization: paas-demo
+  space: sandbox
